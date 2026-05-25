@@ -16,11 +16,11 @@
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
     "resolveJsonModule": true,
-    "types": ["vitest/globals", "node"],
+    "types": ["node"],
     "verbatimModuleSyntax": true,
     "jsx": "react-jsx",
     "jsxImportSource": "preact"
   },
-  "include": ["src", "test", "types", "tsup.config.ts", "vitest.config.ts"],
+  "include": ["src", "types", "tsup.config.ts"],
   "exclude": ["dist", "node_modules"]
 }
